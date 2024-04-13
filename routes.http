@@ -1,0 +1,16 @@
+POST http://localhost:3333/users
+Content-Type: application/json
+Accept-Language: pt-br
+
+{
+    "name": "John Snow",
+    "email": "john.snow@glassmaxi.com.br",
+    "password": "#83n@kasP",
+    "cell": "85985459814",
+    "category": "Transporte",
+    "route": "Piauí"
+}
+###
+
+GET http://localhost:3333/users
+Accept-Language: pt-br
