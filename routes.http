@@ -3,14 +3,33 @@ Content-Type: application/json
 Accept-Language: pt-br
 
 {
-    "name": "John Snow",
-    "email": "john.snow@glassmaxi.com.br",
-    "password": "#83n@kasP",
-    "cell": "85985459814",
-    "category": "Transporte",
-    "route": "Piauí"
+    "name": "Antônio Vilalobos Mesquita",
+    "email": "antônio.mesquita@glassmaxi.com.br",
+    "password": "9%#&knáq",
+    "cell": "85980028922",
+    "category": "Comercial",
+    "route": "Interior - CE"
 }
 ###
 
 GET http://localhost:3333/users
 Accept-Language: pt-br
+
+###
+PUT http://localhost:3333/users/
+Content-Type: application/json
+Accept-Language: pt-br
+
+{
+    "name": "John Snow",
+    "email": "john.snow@glassmaxi.com.br",
+    "password": "#83n@kasP",
+    "cell": "85985459814",
+    "category": "Transporte",
+    "route": "Interior-CE"
+}
+
+###
+DELETE http://localhost:3333/users/ca364577-34a0-4ed7-8f73-6883bb7a7410
+Accept-Language: pt-br
+
