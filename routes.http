@@ -30,6 +30,6 @@ Accept-Language: pt-br
 }
 
 ###
-DELETE http://localhost:3333/users/ca364577-34a0-4ed7-8f73-6883bb7a7410
+DELETE http://localhost:3333/users/12
 Accept-Language: pt-br
 
