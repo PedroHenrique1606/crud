@@ -1,0 +1,35 @@
+POST http://localhost:3333/users
+Content-Type: application/json
+Accept-Language: pt-br
+
+{
+    "name": "Antônio Vilalobos Mesquita",
+    "email": "antônio.mesquita@glassmaxi.com.br",
+    "password": "9%#&knáq",
+    "cell": "85980028922",
+    "category": "Comercial",
+    "route": "Interior - CE"
+}
+###
+
+GET http://localhost:3333/users
+Accept-Language: pt-br
+
+###
+PUT http://localhost:3333/users/10
+Content-Type: application/json
+Accept-Language: pt-br
+
+{
+    "name": "Carla Fernandes",
+    "email": "carla.fernandes@glassmaxi.com.br",
+    "password": "9zG&r@mP",
+    "cell": "85985459814",
+    "category": "Expedição",
+    "route": "Sobral"
+}
+
+###
+DELETE http://localhost:3333/users/12
+Accept-Language: pt-br
+
