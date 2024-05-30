@@ -1,7 +1,7 @@
 
 # CRUD
 
-Este é um CRUD (Create, Read, Update and Delete) feito em NodeJS com Fastify e PostegresJS.
+Este é um CRUD (Create, Read, Update and Delete) feito em NodeJS com Fastify e Postgres.
 
 ## Installation
 
